@@ -7,18 +7,20 @@
     --primary-black-color: #2F303A;
     --primary-button-color: #F5F4FA;
     --primary-font: Roboto, sans-serif;
-    --primary-font-size: 14px;
-    --primary-line-height: 1.14;
-    --primary-letter-spacing: 3%;
+    --regular-font: 400px;
+    --bold-font: 700px;
+    --medium-font: 500px;
+
 }
 
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-color-page);
     color: var(--primary-color);
-    font-size: var(--primary-font-size);
-    line-height: var(--primary-line-height);
-    letter-spacing: var(--primary-letter-spacing);
+    font-weight: var(--medium-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
 }
 
 ul {
@@ -33,7 +35,7 @@ ul {
     color: var(--accent-color);
     text-decoration: none;
     font-family: Raleway, cursive;
-    font-weight: 900;
+    font-weight: 700px;
     font-size: 26px;
     line-height: 1.19;
 }
@@ -46,7 +48,7 @@ ul {
 .header-link {
     color: var(--primary-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: var(--medium-font);
     letter-spacing: 2%;
 
 }
@@ -54,7 +56,7 @@ ul {
 .header-contacts {
     color: var(--secondary-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: var(--medium-font);
     letter-spacing: 2%;
 }
 
@@ -87,7 +89,7 @@ ul {
     background-color: var(--primary-button-color);
     color: var(--primary-color);
     border: none;
-    font-weight: 700;
+    font-weight: var(--bold-font);
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 6%;
@@ -102,7 +104,7 @@ ul {
     background-color: var(--primary-button-color);
     color: var(--primary-color);
     border: none;
-    font-weight: 500;
+    font-weight: var(--medium-font);
     font-size: 16px;
     line-height: 1.6;
 }
@@ -115,31 +117,31 @@ ul {
 
 .title-label {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: var(--bold-font);
     line-height: 1.7;
 
 }
 
 .title-label-project {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--bold-font);
     line-height: 2;
     letter-spacing: 6%;
 }
 
 .section-title {
-    font-weight: 700;
+    font-weight: var(--bold-font);
 }
 
 .description {
     color: var(--secondary-color);
-    font-weight: 400;
+    font-weight: var(--regular-font);
     line-height: 1.7;
 }
 
 .title-description {
     color: var(--secondary-color);
-    font-weight: 400;
+    font-weight: var(--regular-font);
     font-size: 16px;
     line-height: 1.9;
 
@@ -152,14 +154,14 @@ ul {
 
 
 .team-member-name {
-    font-weight: 500;
+    font-weight: var(--medium-font);
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 2%;
 }
 
 .team-member-profession {
-    font-weight: 400;
+    font-weight: var(--regular-font);
     font-size: 16px;
     line-height: 1.2;
 }
@@ -174,7 +176,7 @@ ul {
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+    font-weight: var(--regular-font);
     line-height: 1.7;
 }
 
